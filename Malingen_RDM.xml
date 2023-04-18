@@ -146,21 +146,27 @@
 		<else>
 			<if p_subjob="whm|blm|sch">
 				<equip set="Idle"/>
-				<if p_ismoving="True">
-					<equip set="Movement"/>
-					<if e_area="*Adoulin">
-						<equip set="Adoulin"/>
+					<if p_mpp="&lt;65">
+						<equip set="RefreshIdle"/>
 					</if>
-				</if>
+					<if p_ismoving="True">
+						<equip set="Movement"/>
+							<if e_area="*Adoulin">
+							<equip set="Adoulin"/>
+							</if>
+					</if>
 			</if>
 			<if p_subjob="nin|dnc|war">
 				<equip set="Idle"/>
-				<if p_ismoving="True">
-					<equip set="Movement"/>
-					<if e_area="*Adoulin">
-						<equip set="Adoulin"/>
+					<if p_mpp="&lt;65">
+						<equip set="RefreshIdle"/>
 					</if>
-				</if>
+					<if p_ismoving="True">
+						<equip set="Movement"/>
+							<if e_area="*Adoulin">
+							<equip set="Adoulin"/>
+							</if>
+					</if>
 			</if>
 		</else>
 	</idlegear>
