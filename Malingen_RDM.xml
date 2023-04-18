@@ -1,0 +1,261 @@
+<ashitacast>
+	<settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+		<buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+		<statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+		<hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+		<autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+	</settings>
+	<sets>
+		<!-- BASE SETS -->
+		<set name="Idle">
+			<main>Naegling</main>
+			<sub augment="O2456978194432351">Demers. Degen +1</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head>Nyame Helm</head>
+			<body>Nyame Mail</body>
+			<hands augment="O103150583808445">Nyame Gauntlets</hands>
+			<legs>Nyame Flanchard</legs>
+			<feet>Nyame Sollerets</feet>
+			<neck>Bathy Choker +1</neck>
+			<waist augment="O2336526434304295">Acuity Belt +1</waist>
+			<ear1 augment="O2422361554944367">Odnowa Earring +1</ear1>
+			<ear2>Insomnia Earring</ear2>
+			<ring1>Stikini Ring +1</ring1>
+			<ring2>Defending Ring</ring2>
+			<back augment="S81383595743748612714636">Sucellos's Cape</back>
+		</set>
+		<set name="RefreshIdle">
+			<ammo>Pemphredo Tathlum</ammo>
+			<head augment="M88671560">Viti. Chapeau +1</head>
+			<body>Jhakri Robe +2</body>
+			<hands>Aya. Manopolas +2</hands>
+			<legs>Volte Brais</legs>
+			<feet>Aya. Gambieras +2</feet>
+			<neck>Bathy Choker +1</neck>
+			<waist augment="O2336526434304295">Acuity Belt +1</waist>
+			<ear1 augment="O2422361554944367">Odnowa Earring +1</ear1>
+			<ear2>Insomnia Earring</ear2>
+			<ring1>Stikini Ring +1</ring1>
+			<ring2>Defending Ring</ring2>
+			<back augment="S81383595743748612714636">Sucellos's Cape</back>
+		</set>
+		<set name="TP">
+			<ammo>Pemphredo Tathlum</ammo>
+			<head>Aya. Zucchetto +2</head>
+			<body>Ayanmo Corazza +2</body>
+			<hands>Aya. Manopolas +2</hands>
+			<legs>Aya. Cosciales +2</legs>
+			<feet>Aya. Gambieras +2</feet>
+			<neck>Lissome Necklace</neck>
+			<waist augment="O2456978194432292">Sailfi Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Suppanomimi</ear2>
+			<ring1>Petrov Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S35285710969345541542542">Sucellos's Cape</back>
+		</set>
+		<!-- PRECAST SETS -->
+		<set name="FC">
+			<head>Atro. Chapeau +1</head>
+			<body augment="M7428">Viti. Tabard +1</body>
+			<hands augment="S27771530580022">Gende. Gages +1</hands>
+			<legs>Volte Brais</legs>
+			<feet>Merlinic Crackows</feet>
+			<ear1>Malignance Earring</ear1>
+			<ear2>Enchntr. Earring +1</ear2>
+			<ring1>Kishar Ring</ring1>
+			<ring2>Jhakri Ring</ring2>
+			<back augment="S81383595743748612714636">Sucellos's Cape</back>
+		</set>
+		<set name="ENFFC">
+			<head>Atro. Chapeau +1</head>
+			<body augment="M7428">Viti. Tabard +1</body>
+			<hands augment="S27771530580022">Gende. Gages +1</hands>
+			<legs>Volte Brais</legs>
+			<feet>Merlinic Crackows</feet>
+			<ear1>Malignance Earring</ear1>
+			<ear2>Enchntr. Earring +1</ear2>
+			<ring1>Kishar Ring</ring1>
+			<ring2>Jhakri Ring</ring2>
+			<back augment="S81383595743748612714636">Sucellos's Cape</back>
+		</set>
+		<set name="ENHFC">
+			<head>Atro. Chapeau +1</head>
+			<body augment="M7428">Viti. Tabard +1</body>
+			<hands augment="S27771530580022">Gende. Gages +1</hands>
+			<legs>Volte Brais</legs>
+			<feet>Merlinic Crackows</feet>
+			<waist>Siegel Sash</waist>
+			<ear1>Malignance Earring</ear1>
+			<ear2>Enchntr. Earring +1</ear2>
+			<ring1>Kishar Ring</ring1>
+			<ring2>Jhakri Ring</ring2>
+			<back augment="S81383595743748612714636">Sucellos's Cape</back>
+		</set>
+		<!-- MIDCAST SETS -->
+		<set name="MACC">
+			<ammo>Pemphredo Tathlum</ammo>
+			<head>Aya. Zucchetto +2</head>
+			<body>Jhakri Robe +2</body>
+			<hands>Jhakri Cuffs +2</hands>
+			<legs>Aya. Cosciales +2</legs>
+			<feet>Aya. Gambieras +2</feet>
+			<neck>Erra Pendant</neck>
+			<waist augment="O2336526434304295">Acuity Belt +1</waist>
+			<ear1>Malignance Earring</ear1>
+			<ear2>Hermetic Earring</ear2>
+			<ring1>Stikini Ring +1</ring1>
+			<ring2 augment="O2456978194432306">Metamor. Ring +1</ring2>
+			<back augment="S81383595743748612714636">Sucellos's Cape</back>
+		</set>
+		<!-- UTILITY SETS -->
+		<set name="Movement">
+			<legs>Carmine Cuisses +1</legs>
+		</set>
+	</sets>
+	<init>
+		<addtochat color="8">Starting up Red Mage</addtochat>
+		<command delay="1000">/macro book 4</command>
+		<command delay="2000">/macro set 1</command>
+		<command delay="3000">/lockstyleset 021</command> <!-- 200 -->
+		<command delay="4000">/exec MaliBRD/RDMEXEC</command>
+	</init>
+
+	<jobability>
+		<if ad_name="Chainspell"><equip><body>Vitivation Tabard</body></equip></if>
+		<if ad_name="Saboteur"><registerbuff id="454" /></if>
+		<if ad_name="Composure"><registerbuff id="419" /></if>
+	</jobability>
+
+	<idlegear>
+		<if eq_rring="Trizek Ring"><equip lock="true"><rring>Trizek Ring</rring></equip></if>
+		<if eq_rring="Capacity Ring"><equip lock="true"><rring>Capacity Ring</rring></equip></if>
+		<if eq_rring="Vocation Ring"><equip lock="true"><rring>Vocation Ring</rring></equip></if>
+		<if eq_rring="Facility Ring"><equip lock="true"><rring>Facility Ring</rring></equip></if>
+		<if eq_rring="Dim. Ring (Dem)"><equip lock="true"><rring>Dim. Ring (Dem)</rring></equip></if>
+		<if eq_rring="Dim. Ring (Holla)"><equip lock="true"><rring>Dim. Ring (Holla)</rring></equip></if>
+		<if eq_rring="Dim. Ring (Mea)"><equip lock="true"><rring>Dim. Ring (Mea)</rring></equip></if>
+		<if eq_back="Aptitude Mantle"><equip lock="true"><back>Aptitude Mantle</back></equip></if>    
+		<if eq_rring="Warp Ring"><equip lock="true"><rring>Warp Ring</rring></equip></if>
+		<if eq_rring="Echad Ring"><equip lock="true"><rring>Echad Ring</rring></equip></if>
+		<if eq_back="Nexus Cape"><equip lock="true"><back>Nexus Cape</back></equip></if>
+		
+		<if p_status="engaged">
+			<equip set="TP"/>
+		</if>
+		<else>
+			<if p_subjob="whm|blm|sch">
+				<equip set="Idle"/>
+				<if p_ismoving="True">
+					<equip set="Movement"/>
+					<if e_area="*Adoulin">
+						<equip set="Adoulin"/>
+					</if>
+				</if>
+			</if>
+			<if p_subjob="nin|dnc|war">
+				<equip set="Idle"/>
+				<if p_ismoving="True">
+					<equip set="Movement"/>
+					<if e_area="*Adoulin">
+						<equip set="Adoulin"/>
+					</if>
+				</if>
+			</if>
+		</else>
+	</idlegear>
+
+	<premagic>
+		<if ad_skill="enhancingmagic">
+			<equip set="ENHFC"/>
+			<if ad_name="Stoneskin">
+				<equip set="SSFC"/>
+			</if>
+		</if>
+		<elseif ad_skill="enfeeblingmagic">
+			<equip set="ENFFC"/>
+		</elseif>
+		<elseif ad_name="Cure*">
+			<equip set="CFC"/>
+		</elseif>
+		<elseif ad_name="Curaga*">
+			<equip set="CFC"/>
+		</elseif>
+		<else>
+			<equip set="FC"/>
+		</else>
+	</premagic>
+
+
+	<midmagic>
+		<if ad_name="Stun">
+			<equip set="Stun" />
+		</if>
+		<elseif ad_name="Stoneskin">
+			<equip set="Stoneskin" />
+		</elseif>
+		<elseif ad_name="Cure*|Curaga*">
+			<equip set="Cure" />
+			<if mode="OR" e_weatherelement="Light" e_dayelement="Light">
+				<equip>
+					<back>Twilight Cape</back>
+					<waist>Korin Obi</waist>
+				</equip>
+			</if>
+		</elseif>
+		<elseif ad_skill="Ninjutsu"><equip set="Haste" /></elseif>
+		<elseif ad_skill="DarkMagic"><equip set="Dark" /></elseif>
+		<elseif ad_skill="ElementalMagic">
+			<if ad_name="Burn|Choke|Shock|Rasp|Drown|Choke">
+				<equip set="EleDot" />
+			</if>
+			<elseif ad_name="Impact">
+				<equip set="Impact" />
+			</elseif>
+			<else>
+				<equip when="$GearTime" set="Nuke" />
+				<if advanced="%ad_element=%e_dayelement">
+					<if ad_element="Light"><equip><waist>Korin Obi</waist></equip></if>
+					<equip>
+						<!--<rring>Zodiac Ring</rring>-->
+						<back>Twilight Cape</back>
+					</equip>
+				</if>
+				<elseif advanced="%ad_element=%e_weatherelement">
+					<if ad_element="Light">
+						<equip when="midcast">
+							<waist>Korin Obi</waist>
+						</equip>
+					</if>
+					<equip>
+						<back>Twilight Cape</back>
+					</equip>
+				</elseif>
+			</else>
+		</elseif>
+		
+		<elseif ad_skill="EnfeeblingMagic">
+			<if ad_name="Slow*|Paralyze*">
+				<equip set="Enfeeb-MND" />
+				<if ad_name="Slow II"><equip><head>Viti. Chapeau +1</head></equip></if>
+				<elseif ad_name="Paralyze II"><equip><feet>Vitivation Boots +1</feet></equip></elseif>
+			</if>
+			<else><equip set="Enfeeb-ACC" /></else>
+			<if ad_name="Dia III"><equip><head>Viti. Chapeau +1</head></equip></if>
+			<if buffactive="454"><equip><hands>Estq. Ganthrt. +2</hands></equip></if>
+		</elseif>
+		
+		<elseif ad_skill="EnhancingMagic">
+			<if ad_name="Embrava|En*|Bar*|Phalanx"><equip set="Enhancing" /></if>
+			<else><equip set="Haste" /></else>
+			<if ad_name="Refresh|Refresh II"><equip><legs>Estqr. Fuseau +2</legs></equip></if>
+			<if buffactive="419" advanced="%p_name!=%at_name">
+				<equip>
+					<head>Estq. Chappel +2</head>
+					<body>Estq. Sayon +2</body>
+					<legs>Estqr. Fuseau +2</legs>
+				</equip>
+			</if>
+		</elseif>
+	</midmagic>
+</ashitacast>
